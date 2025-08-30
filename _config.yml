@@ -4,10 +4,8 @@
 title: "Scentience WebSocket API"
 description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
 url: "https://scentience.github.io"
-baseurl: "/docs-api-sockets"   # change/remove if deploying at root
-# ----------------------------------------
-# Theme settings
-# ----------------------------------------
+baseurl: "/docs-api"   # change/remove if deploying at root
+
 remote_theme: pages-themes/midnight@v0.2.0
 
 plugins:
@@ -18,19 +16,9 @@ plugins:
 markdown: kramdown
 highlighter: rouge
 
-# ----------------------------------------
-# Build settings
-# ----------------------------------------
-
-# Ensure README.md is built into the site
 include:
   - README.md
-  - docs
-  - _data
-  - _layouts
-  - _includes
 
-# Make README.md act as the homepage
 defaults:
   - scope:
       path: ""
@@ -39,7 +27,6 @@ defaults:
       layout: default
       permalink: /
 
-# Render docs/*.md as HTML pages
 collections:
   docs:
     output: true
