@@ -116,35 +116,13 @@ pre code {
 /* Inline code (single backticks) */
 code {
   background-color: #7e7e7e; /* dark grey */
-  color: #f8f8f8;
+  color: #f8f8f8;          /* black text for contrast */
   padding: 0.2em 0.4em;
   border-radius: 4px;
   font-family: monospace;
 }
 
 
-/* Code blocks */
-pre {
-  background-color: #7e7e7e; /* dark grey */
-  color: #f8f8f8;
-  padding: 1em;
-  border-radius: 6px;
-  overflow-x: auto; /* handle long lines */
-}
-
-pre code {
-  background: none; /* prevent double background */
-  padding: 0;
-}
-
-/* Inline code */
-code {
-  background-color: #7e7e7e; /* dark grey */
-  color: #f8f8f8;
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-family: monospace;
-}
 
 footer {
     background-color: #000;
