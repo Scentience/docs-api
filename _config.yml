@@ -1,0 +1,19 @@
+title: "Scentience WebSocket API"
+description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
+theme: jekyll-theme-midnight
+
+include:
+  - README.md
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      permalink: /
+
+# Load navigation data
+collections:
+  docs:
+    output: true

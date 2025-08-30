@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  {{ site.theme }}
+  <style>
+    #content { margin-left: 240px; }
+    body { font-family: -apple-system, Helvetica, Arial, sans-serif; }
+  </style>
+</head>
+<body>
+  {% include sidebar.html %}
+  <div id="content">
+    {{ content }}
+  </div>
+</body>
+</html>
