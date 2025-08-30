@@ -25,18 +25,18 @@ theme: minima
 markdown: kramdown
 highlighter: rouge
 
-include:
-  - README.md
-  - _layouts/default.html
+# include:
+#   - README.md
+#   - _layouts/default.html
 
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: default
-      permalink: /
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: default
+#       permalink: /
 
-collections:
-  docs:
-    output: true
+# collections:
+#   docs:
+#     output: true
