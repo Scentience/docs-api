@@ -1,10 +1,23 @@
+# ----------------------------------------
+# Site settings
+# ----------------------------------------
 title: "Scentience WebSocket API"
 description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
+url: "https://your-username.github.io"
+baseurl: "/scentience-ws-api"   # change/remove if deploying at root
 theme: jekyll-theme-midnight
 
+# ----------------------------------------
+# Build settings
+# ----------------------------------------
+markdown: kramdown
+highlighter: rouge
+
+# Ensure README.md is included in the build
 include:
   - README.md
 
+# Defaults: make README.md the homepage
 defaults:
   - scope:
       path: ""
@@ -13,7 +26,16 @@ defaults:
       layout: default
       permalink: /
 
-# Load navigation data
+# Collections for docs (so /docs/*.md become HTML pages)
 collections:
   docs:
     output: true
+
+# Plugins (safe for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# ----------------------------------------
+# Navigation (sidebar pulls from _data/navigation.yml)
+# ----------------------------------------
