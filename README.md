@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # Scentience WebSocket API
 ---
 The Scentience WebSocket API provides real-time communication between Scentience devices, the Scentience mobile app, and other robots or olfactory-enabled systems.

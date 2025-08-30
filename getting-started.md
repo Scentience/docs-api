@@ -1,3 +1,7 @@
+---
+layout: default
+title: Start
+---
 # Getting Started
 
 ## Clone the Repository
