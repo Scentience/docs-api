@@ -18,8 +18,8 @@ plugins:
 #   - jekyll-feed
 #   - jekyll-seo-tag
 
-markdown: kramdown
-highlighter: rouge
+# markdown: kramdown
+# highlighter: rouge
 
 include:
   - README.md
