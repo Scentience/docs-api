@@ -100,7 +100,7 @@ button:hover {
 
 /* Code blocks */
 pre {
-  background-color: #7e7e7e; /* dark grey */
+  background-color: #3b3b3b; /* dark grey */
   color: #f8f8f8;          /* black text for contrast */
   padding: 1em;
   border-radius: 6px;
@@ -115,7 +115,7 @@ pre code {
 
 /* Inline code (single backticks) */
 code {
-  background-color: #7e7e7e; /* dark grey */
+  background-color: #3b3b3b; /* dark grey */
   color: #f8f8f8;          /* black text for contrast */
   padding: 0.2em 0.4em;
   border-radius: 4px;
