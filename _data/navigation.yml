@@ -1,8 +1,8 @@
 - title: "Home"
   url: /
 - title: "Getting Started"
-  url: /docs/getting-started.md
+  url: https://scentience.github.io/docs-api/docs/getting-started.md
 - title: "Usage"
-  url: /docs/usage.md
+  url: https://scentience.github.io/docs-api/docs/usage.md
 - title: "API Reference"
-  url: /docs/api-reference.md
+  url: https://scentience.github.io/docs-api/docs/api-reference.md
