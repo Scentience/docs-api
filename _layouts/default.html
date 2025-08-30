@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="stylesheet" href="{{ 'https://scentience.github.io/docs-api/css/styles.css' | relative_url }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="https://scentience.github.io/docs-api/css/styles.css">
 </head>
 <body>
-  <!-- Hamburger Menu -->
-  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-  <nav id="menu" class="menu">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/page1' | relative_url }}">Page 1</a>
-    <a href="{{ '/page2' | relative_url }}">Page 2</a>
-  </nav>
-
-  <main>
-    {{ content }}
-  </main>
-
-  <script>
-    function toggleMenu() {
-      document.getElementById('menu').classList.toggle('active');
-    }
-  </script>
+    <header>
+        <button id="hamburger" aria-label="Toggle navigation">&#9776;</button> <!-- Hamburger icon -->
+    </header>
+    <nav id="sidebar">
+        <ul>
+            <li><a href="https://scentience.github.io/docs-api/index">Home</a></li>
+            <li><a href="https://scentience.github.io/docs-api/about">About</a></li>
+            <li><a href="https://scentience.github.io/docs-api/contact">Contact</a></li>
+            <li><a href="https://scentience.github.io/docs-api/api-reference">API</a></li>
+            <li><a href="https://scentience.github.io/docs-api/getting-started">Get Started</a></li>
+            <li><a href="https://scentience.github.io/docs-api/usage">Usage</a></li>
+        </ul>
+    </nav>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>&copy; 2025 {{ site.title }}. All rights reserved.</p>
+    </footer>
+    <script src="https://scentience.github.io/docs-api/js/script.js"></script>
 </body>
 </html>
