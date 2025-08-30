@@ -3,9 +3,8 @@
 # ----------------------------------------
 title: "Scentience WebSocket API"
 description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
-domain: "scentience.github.io"
 url: "https://scentience.github.io"
-baseurl: "/docs-api-sockets/"   # change/remove if deploying at root
+baseurl: "/docs-api-sockets"   # change/remove if deploying at root
 # ----------------------------------------
 # Theme settings
 # ----------------------------------------
@@ -26,6 +25,10 @@ highlighter: rouge
 # Ensure README.md is built into the site
 include:
   - README.md
+  - docs
+  - _data
+  - _layouts
+  - _includes
 
 # Make README.md act as the homepage
 defaults:
