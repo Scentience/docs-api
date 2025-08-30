@@ -27,7 +27,11 @@ highlighter: rouge
 
 include:
   - README.md
-  - _layouts/default.html
+  - about.md
+  - api-reference.md
+  - contact.md
+  - usage.md
+  # - _layouts/default.html
 
 defaults:
   - scope:
