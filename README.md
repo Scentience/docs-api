@@ -1,16 +1,20 @@
-Scentience WebSocket API
-The Scentience WebSocket API provides real-time communication between Scentience devices, the Scentience mobile app, and other robots or olfactory-enabled systems.
-Built using Swift and Grand Central Dispatch (GCD) sockets, this API enables seamless exchange of olfactory information over a lightweight, bidirectional WebSocket protocol.
-✨ Features
-📡 Real-time Communication – Stream olfactory data with minimal latency.
-🤖 Robot Integration – Allow robots and IoT devices to access scent information.
-📱 App Relay – The Scentience app can act as a hub, relaying olfactory signals between devices.
-🔌 Lightweight & Efficient – Built with GCD sockets for high performance and scalability.
-🌐 Cross-Platform Ready – Any WebSocket-compatible client can connect (Python, JavaScript, C++, etc.).
-🚀 Getting Started
+# Scentience WebSocket API
+---
+### The Scentience WebSocket API provides real-time communication between Scentience devices, the Scentience mobile app, and other robots or olfactory-enabled systems.
+Enabled to interface with nearly any application and programming language, this API enables seamless exchange of olfactory information over a lightweight, bidirectional WebSocket protocol.
+Features
+- Real-time Communication – Stream olfactory data with minimal latency.
+- Robot Integration – Allow robots and IoT devices to access scent information.
+- App Relay – The Scentience app can act as a hub, relaying olfactory signals between devices.
+- Lightweight & Efficient – Built with GCD sockets for high performance and scalability.
+- Cross-Platform Ready – Any WebSocket-compatible client can connect (Python, JavaScript, C++, etc.).
+---
+Getting Started
 1. Clone the Repository
-git clone https://github.com/your-username/scentience-ws-api.git
+```
+git clone https://github.com/scentience/docs-api-sockets.git
 cd scentience-ws-api
+```
 2. Run the Server
 The WebSocket server is written in Swift and uses GCD for concurrency.
 To run the server:
