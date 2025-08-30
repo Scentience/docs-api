@@ -3,8 +3,9 @@
 # ----------------------------------------
 title: "Scentience WebSocket API"
 description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
-url: "https://scentience.github.io/docs-api-sockets/"
-baseurl: "./"   # change/remove if deploying at root
+domain: "scentience.github.io"
+url: "https://scentience.github.io"
+baseurl: "/docs-api-sockets/"   # change/remove if deploying at root
 theme: jekyll-theme-midnight
 
 # ----------------------------------------
