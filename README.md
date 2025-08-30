@@ -67,3 +67,4 @@ Full documentation (setup, examples, API schema) is available at:
 We welcome contributions! Please open issues, submit PRs, or propose features.
 📜 License
 This project is licensed under the MIT License – see LICENSE for details.
+
