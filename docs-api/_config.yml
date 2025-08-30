@@ -31,6 +31,7 @@ include:
   - api-reference.md
   - contact.md
   - usage.md
+  - index.md
   # - _layouts/default.html
 
 defaults:
