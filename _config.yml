@@ -27,6 +27,7 @@ highlighter: rouge
 
 include:
   - README.md
+  - _layouts/default.html
 
 defaults:
   - scope:
