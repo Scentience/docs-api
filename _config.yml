@@ -1,47 +1,42 @@
+# title: Midnight Site
+# description: A midnight-themed site
+# theme: midnight  # Optional: Uses a default Jekyll theme for basics; you can remove or change this.
+# # plugins:
+# #   - jekyll-feed  # Optional: Enables RSS feed; remove if not needed.
+
+# ----------------------------------------
+# Site settings
+# ----------------------------------------
 title: "Scentience WebSocket API"
+description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
+url: "https://scentience.github.io/docs-api"
+# baseurl: ""   # change/remove if deploying at root
 theme: minima
-markdown: kramdown
-
-
-# # title: Midnight Site
-# # description: A midnight-themed site
-# # theme: midnight  # Optional: Uses a default Jekyll theme for basics; you can remove or change this.
-# # # plugins:
-# # #   - jekyll-feed  # Optional: Enables RSS feed; remove if not needed.
-
-# # ----------------------------------------
-# # Site settings
-# # ----------------------------------------
-# title: "Scentience WebSocket API"
-# description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
-# url: "https://scentience.github.io/docs-api"
-# # baseurl: ""   # change/remove if deploying at root
-# # theme: midnight
-# # show_downloads: true
-# # github:
-# #   is_project_page: true
-# #   repository_url: "https://scentience.github.io/docs-api"
+# show_downloads: true
+# github:
+#   is_project_page: true
+#   repository_url: "https://scentience.github.io/docs-api"
 
 
 # remote_theme: pages-themes/midnight@v0.2.0
 # plugins:
 # - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-# markdown: kramdown
-# highlighter: rouge
+markdown: kramdown
+highlighter: rouge
 
-# include:
-#   - README.md
-#   # - _layouts/default.html
+include:
+  - README.md
+  # - _layouts/default.html
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       layout: default
-#       permalink: /
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      permalink: /
 
-# collections:
-#   docs:
-#     output: true
+collections:
+  docs:
+    output: true

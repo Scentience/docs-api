@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Welcome to the Midnight Realm
+# Welcome
 
-Explore the mysteries of the night under a starry sky.
-
-This is the home page content. You can add more Markdown here, like lists or images.
+This is the home page.
