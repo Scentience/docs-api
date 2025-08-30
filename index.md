@@ -15,21 +15,23 @@ Features
 - Cross-Platform Ready – Any WebSocket-compatible client can connect (Python, JavaScript, C++, etc.).
 ---
 Getting Started
+
 1. Clone the Repository
-```
+```python
 git clone https://github.com/scentience/docs-api-sockets.git
 cd scentience-ws-api
 ```
+
 2. Run the Server
 The WebSocket server is written in Swift and uses GCD for concurrency.
 To run the server:
-```
+```python
 swift run
 ```
 By default, the server runs on ws://localhost:8080.
-📡 Example Usage
+
 ### Connecting with Swift
-```
+```python
 let url = URL(string: "ws://localhost:8080")!
 let task = URLSession.shared.webSocketTask(with: url)
 task.resume()
