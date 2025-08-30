@@ -23,7 +23,9 @@ cd scentience-ws-api
 2. Run the Server
 The WebSocket server is written in Swift and uses GCD for concurrency.
 To run the server:
+```
 swift run
+```
 By default, the server runs on ws://localhost:8080.
 📡 Example Usage
 ### Connecting with Swift
@@ -40,7 +42,9 @@ task.send(message) { error in
     }
 }
 ```
+
 ### Connecting with Python
+
 ```
 import websockets
 import asyncio

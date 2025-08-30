@@ -59,7 +59,7 @@ header {
 
 main {
     padding: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -98,10 +98,34 @@ button:hover {
     background-color: #333;
 }
 
+/* Inline code */
+code {
+  background-color: #333; /* dark grey */
+  color: #f8f8f8;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Code blocks */
+pre {
+  background-color: #333; /* dark grey */
+  color: #f8f8f8;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto; /* handle long lines */
+}
+
+pre code {
+  background: none; /* prevent double background */
+  padding: 0;
+}
+
+
 footer {
     background-color: #000;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     position: fixed;
     bottom: 0;
     width: 100%;
