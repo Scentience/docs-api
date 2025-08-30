@@ -1,6 +1,6 @@
 title: Midnight Site
 description: A midnight-themed site
-theme: minima  # Optional: Uses a default Jekyll theme for basics; you can remove or change this.
+theme: midnight  # Optional: Uses a default Jekyll theme for basics; you can remove or change this.
 plugins:
   - jekyll-feed  # Optional: Enables RSS feed; remove if not needed.
 
