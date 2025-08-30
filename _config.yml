@@ -3,8 +3,8 @@
 # ----------------------------------------
 title: "Scentience WebSocket API"
 description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
-url: "https://scentience.github.io/docs-api"
-# baseurl: "/docs-api"   # change/remove if deploying at root
+url: "https://scentience.github.io"
+baseurl: "/docs-api"   # change/remove if deploying at root
 # theme: midnight
 # show_downloads: true
 # github:
@@ -14,9 +14,7 @@ url: "https://scentience.github.io/docs-api"
 
 remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-  - jekyll-remote-theme
-#   - jekyll-feed
-#   - jekyll-seo-tag
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # markdown: kramdown
 # highlighter: rouge
