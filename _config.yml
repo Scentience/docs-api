@@ -5,8 +5,7 @@ title: "Scentience WebSocket API"
 description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
 url: "https://scentience.github.io/docs-api"
 # baseurl: "/docs-api"   # change/remove if deploying at root
-
-# theme: jekyll-theme-midnight
+theme: midnight
 # show_downloads: true
 # github:
 #   is_project_page: true
