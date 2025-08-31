@@ -198,13 +198,9 @@ Disconnect
 - Write failures: Check MTU and fragment large payloads.
 - Contact Scentience support for firmware issues.
 
-For updates, visit the Scentience developer portal. This is a draft document—feedback welcome!
-
-
-
-
 
 ---
 ---
-
+---
+---
 ---

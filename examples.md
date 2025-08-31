@@ -45,6 +45,7 @@ A household service robot detecting it has entered a kitchen (due to a mix of co
 
 
 ---
-  
 ---
- 
+---
+---
+---

@@ -19,3 +19,9 @@ Below is a summary of the release notes for recent versions of the Scentience Bl
 ### v0.1
 **11 November 2024**: 
 - Initial private development release
+
+---
+---
+---
+---
+---

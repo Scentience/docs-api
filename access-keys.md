@@ -63,3 +63,11 @@ curl -X POST https://api.scentience.ai/v1/predict \
 * Keep keys **secret** — never embed them in your public code repositories.
 * Use **separate keys** for different applications or environments.
 * Rotate keys periodically for better security.
+
+
+---
+---
+---
+---
+---
+

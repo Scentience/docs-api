@@ -33,3 +33,9 @@ Below is a summary of the release notes for recent versions of the Scentience UA
 ### v0.1
 **11 November 2024**: 
 - Initial private development release
+
+---
+---
+---
+---
+---

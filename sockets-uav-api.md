@@ -68,31 +68,32 @@ Scentience supports three distinct command types:
 
 ### Control Commands
 
-| Command                         | Description                          | Response       |
-| ------------------------------- | ------------------------------------ | -------------- |
-| `hello_scentience`              | Enter SDK mode                       | `ok` / `error` |
-| `takeoff`                       | Auto-takeoff                         | `ok` / `error` |
-| `land`                          | Auto-landing                         | `ok` / `error` |
-| `streamon`                      | Start video stream                   | `ok` / `error` |
-| `streamoff`                     | Stop video stream                    | `ok` / `error` |
-| `emergency`                     | Immediate motor stop                 | `ok` / `error` |
-| `stop`                          | Hover in place                       | `ok` / `error` |
-| `up x`                          | Climb `x` cm (20–500)                | `ok` / `error` |
-| `down x`                        | Descend `x` cm (20–500)              | `ok` / `error` |
-| `left x`                        | Fly left `x` cm (20–500)             | `ok` / `error` |
-| `right x`                       | Fly right `x` cm (20–500)            | `ok` / `error` |
-| `forward x`                     | Fly forward `x` cm (20–500)          | `ok` / `error` |
-| `back x`                        | Fly backward `x` cm (20–500)         | `ok` / `error` |
-| `cw x`                          | Rotate clockwise `x°` (1–360)        | `ok` / `error` |
-| `ccw x`                         | Rotate counterclockwise `x°` (1–360) | `ok` / `error` |
-| `flip [l/r/f/b]`                | Flip left, right, forward, or back   | `ok` / `error` |
-| `go x y z speed`                | Fly to position at speed             | `ok` / `error` |
-| `curve x1 y1 z1 x2 y2 z2 speed` | Fly in a curve between two waypoints | `ok` / `error` |
+| Command                         | Description                            | Response       |
+| ------------------------------- | -------------------------------------- | -------------- |
+| `hello_scentience`              | Enter SDK mode                         | `ok` / `error` |
+| `takeoff`                       | Auto-takeoff                           | `ok` / `error` |
+| `land`                          | Auto-landing                           | `ok` / `error` |
+| `streamon`                      | Start video stream                     | `ok` / `error` |
+| `streamoff`                     | Stop video stream                      | `ok` / `error` |
+| `emergency`                     | Immediate motor stop                   | `ok` / `error` |
+| `stop`                          | Hover in place                         | `ok` / `error` |
+| `up x`                          | Climb `x` cm (20–500)                  | `ok` / `error` |
+| `down x`                        | Descend `x` cm (20–500)                | `ok` / `error` |
+| `left x`                        | Fly left `x` cm (20–500)               | `ok` / `error` |
+| `right x`                       | Fly right `x` cm (20–500)              | `ok` / `error` |
+| `forward x`                     | Fly forward `x` cm (20–500)            | `ok` / `error` |
+| `back x`                        | Fly backward `x` cm (20–500)           | `ok` / `error` |
+| `cw x`                          | Rotate clockwise `x°` (1–360)          | `ok` / `error` |
+| `ccw x`                         | Rotate counterclockwise `x°` (1–360)   | `ok` / `error` |
+| `flip [l/r/f/b]`                | Flip left, right, forward, or back     | `ok` / `error` |
+| `go x y z speed`                | Fly to position at speed               | `ok` / `error` |
+| `curve x1 y1 z1 x2 y2 z2 speed` | Fly in a curve between two waypoints   | `ok` / `error` |
+| `oioon`                         | Begin navigating by scent via OIO      | `ok` / `error` |
+| `oiooff`                        | End navigating by scent via OIO        | `ok` / `error` |
+| `oio x`                         | Track target compound `x` (e.g. `nh3`) | `ok` / `error` |
 
-**Note**: For `go` and `curve`, `x`, `y`, `z` must be between -500 and 500, except avoid simultaneous values between -20..20. Speeds:
-
-* `go`: 10–100 cm/s
-* `curve`: 10–60 cm/s
+**Note**: 
+Sending `oio x` will automatially activate `oioon` to start tracking the target compound through olfactory inertial odometery (OIO).
 
 ---
 
@@ -120,7 +121,9 @@ Scentience supports three distinct command types:
 | `ble?`     | BLE signal quality (SNR)   | `21`               |
 | `pos?`     | Current position           | `36.0000, 48.9994` |
 | `sdk?`     | SDK version                | `1.0.0-scentience` |
-| `sn?`      | OPU serial number          | `SC12345678`       |
+| `sn?`      | OPU serial number          | `SCN00001`         |
+| `olfa?`    | Olfactory sensor A (ppb)   | `2000`             |
+| `olfb?`    | Olfactory sensor B (ppb)   | `2000`             |
 
 ---
 
@@ -144,6 +147,8 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 
 | Field         | Meaning                                                                 |
 |---------------|-------------------------------------------------------------------------|
+| `olfa`        | Measurements from olfactory sensor a.                                   |
+| `olfb`        | Measurements from olfactory sensor b.                                   |
 | `x`, `y`, `z` | Coordinates of the home. `0` if no home position is detected.           |
 | `pitch`       | Attitude pitch in degrees.                                              |
 | `roll`        | Attitude roll in degrees.                                               |
@@ -182,21 +187,32 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 > go 100 0 50 30
 < ok
 
-[ Drone navigates ]
+[ Start scent navigation and track ammonia (NH3) ]
 
-> curve 100 0 50 200 0 50 20
+> oioon
+< ok
+
+> oio nh3
 < ok
 
 > land
 < ok
 
+[ Start receiving video on port 11111 ]
+
 > streamon
 < ok
 
-[ Start receiving video on port 11111 ]
-
 > streamoff
+< ok
+
+> oiooff
 < ok
 ```
 
+
+---
+---
+---
+---
 ---

@@ -29,6 +29,7 @@ For any questions or concerns with any of the Scentience APIs, please reach out 
 - Cross-Platform Ready – Any capable connection through conventional cloud, application, or firmware languages (Python, JavaScript, C++, etc.). -->
 
 ---
--
+---
+---
 ---
 ---

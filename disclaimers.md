@@ -28,7 +28,9 @@ Scentience does not claim any specific performance beyond the model cards nor fo
 
 *(Note: This is a static form demo; add a backend like Formspree for real submissions.)* -->
 
+
 ---
--
+---
+---
 ---
 ---
