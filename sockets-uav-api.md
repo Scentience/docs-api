@@ -103,8 +103,6 @@ Scentience supports three distinct command types:
 | `speed x`                       | Set cruise speed (10–100 cm/s)                   | `ok` / `error` |
 | `rc a b c d`                    | Direct RC control — (`-100`–`100` each axis)     | `ok` / `error` |
 | `ssid YOUR_SSID pass YOUR_PASS` | Configure drone Wi-Fi credentials                | `ok` / `error` |
-| `mon`                           | Enable mission pad detection                     | `ok` / `error` |
-| `moff`                          | Disable mission pad detection                    | `ok` / `error` |
 | `mdirection x`                  | Set detection direction: 0=down, 1=front, 2=both | `ok` / `error` |
 | `ap YOUR_SSID YOUR_PASS`        | Configure station mode for Wi-Fi                 | `ok` / `error` |
 
@@ -116,12 +114,15 @@ Scentience supports three distinct command types:
 
 | Command    | Description                | Example Response   |
 | ---------- | -------------------------- | ------------------ |
-| `speed?`   | Current speed setting      | `50`               |
-| `battery?` | Battery percentage         | `85`               |
-| `time?`    | Flight time in seconds     | `120`              |
-| `wifi?`    | Wi-Fi signal quality (SNR) | `30`               |
+| `speed?`   | Current speed setting      | `20`               |
+| `battery?` | Battery percentage         | `75`               |
+| `time?`    | Flight time in seconds     | `115`              |
+| `wifi?`    | Wi-Fi signal quality (SNR) | `21`               |
+| `gps?`     | GPS signal quality (SNR)   | `21`               |
+| `ble?`     | BLE signal quality (SNR)   | `21`               |
+| `pos?`     | Current position           | `36.0000, 48.9994` |
 | `sdk?`     | SDK version                | `1.0.0-scentience` |
-| `sn?`      | Drone serial number        | `SC12345678`       |
+| `sn?`      | OPU serial number          | `SC12345678`       |
 
 ---
 
@@ -129,7 +130,39 @@ Scentience supports three distinct command types:
 
 Once `streamon` is issued, your client listening on `11111` will begin receiving video frames, typically encoded in H.264. Frame interpretation is up to your application logic.
 
-On the state side, keep listening via port `8890` for periodic updates such as battery, flight time, and mission pad orientation—especially when `mon` or similar commands are active.
+On the state side, keep listening via port `8890` for periodic updates such as battery, flight time, and kinematic oriented data.
+
+---
+## Scentience UAV State
+
+**Data type**: String
+
+```
+pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%d;baro:%.2f;time:%d;agx:%.2f;agy:%.2f;agz:%.2f;
+
+```
+
+### Field Descriptions
+
+| Field   | Meaning                                                                 |
+|---------|-------------------------------------------------------------------------|
+| x, y, z | Coordinates of the Mission Pad. `0` if no pad is detected.              |
+| pitch   | Attitude pitch in degrees.                                              |
+| roll    | Attitude roll in degrees.                                               |
+| yaw     | Attitude yaw in degrees.                                                |
+| vgx     | Speed along the X-axis.                                                 |
+| vgy     | Speed along the Y-axis.                                                 |
+| vgz     | Speed along the Z-axis.                                                 |
+| templ   | Lowest temperature in °C.                                               |
+| temph   | Highest temperature in °C.                                              |
+| tof     | Time-of-flight distance in cm.                                          |
+| h       | Height in cm.                                                           |
+| bat     | Current battery level in percentage.                                    |
+| baro    | Barometer measurement in cm.                                            |
+| time    | Duration (in seconds) motors have been engaged.                         |
+| agx     | Acceleration along the X-axis.                                          |
+| agy     | Acceleration along the Y-axis.                                          |
+| agz     | Acceleration along the Z-axis.                                          |
 
 ---
 
