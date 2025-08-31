@@ -5,9 +5,16 @@ title: Model Cards
 
 # Scentience Model Cards
 ---
-Welcome to the model cards for our Scentience ML models. These cards provide detailed information about each model's purpose, performance, and usage guidelines.
+Welcome to the model cards for our Scentience ML models. These cards provide detailed information about each model's purpose, performance, and usage guidelines. _Please note that all models are **for research purposes only**._ Scentience cannot claim any specific performance beyond the model cards nor for any specific applications.
+
+---
 
 ## Model S1: Multimodal Chemical Predictor
+- **Model Name:** Scentience S1  
+- **Version:** 0.1  
+- **Developed by:** Scentience Robotics, LLC  
+- **Model Type:** Multimodal model (olfaction, vision, language)  
+- **License:** Scentience Proprietary  
 
 **Description:** ScentPredictor is a machine learning model designed to predict molecules present in a visual scene.
 
@@ -26,11 +33,15 @@ Welcome to the model cards for our Scentience ML models. These cards provide det
 
 **Ethical Considerations:** Ensure use complies with data privacy laws when handling proprietary chemical data. Avoid applications in deceptive marketing or harmful chemical synthesis.
 
-**Version:** 1.0 | **Release Date:** August 2025 | **License:** Scentience Proprietary
 
 ---
 
 ## Model S2: Multimodal Olfactory Classifier
+- **Model Name:** Scentience S2  
+- **Version:** 0.1  
+- **Developed by:** Scentience Robotics, LLC  
+- **Model Type:** Multimodal model (olfaction, vision, language)  
+- **License:** Scentience Proprietary  
 
 **Description:** OdorClassifier is an advanced classifier that categorizes odors into families (e.g., floral, woody, citrus) using multimodal inputs like text descriptions and molecular features.
 
@@ -49,20 +60,12 @@ Welcome to the model cards for our Scentience ML models. These cards provide det
 
 **Ethical Considerations:** Promote inclusivity by validating across diverse populations. Do not use for discriminatory purposes based on scent preferences.
 
-**Version:** 1.0 | **Release Date:** August 2025 | **License:** Scentience Proprietary
-
 
 ---
 
 ## Olfaction-Vision-Language Model  
-**Version:** 0.1  
-**Date:** 2025-02-11  
-**Developed by:** Scentience Robotics  
-
-### Model Details
-
 - **Model Name:** Scentience OVLM (Olfaction-Vision-Language Model)  
-- **Version:** 0.1  
+- **Version:** 0.3
 - **Developed by:** Scentience Robotics, LLC  
 - **Model Type:** Multimodal model (olfaction, vision, language)  
 - **License:** Scentience Proprietary  
