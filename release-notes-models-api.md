@@ -18,7 +18,8 @@ Below is a summary of the release notes for recent versions of the Scentience AI
 
 ### v0.2
 **29 January 2024**: 
-- Initial private development release
+- Private development release with updates to olfactory encoder
+- Improved multimodal alignment
 
 
 ### v0.1
