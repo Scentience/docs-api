@@ -172,10 +172,9 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 ## Sample Session Flow
 
 ```plaintext
-> hello_scentience
-< ok
+[ Take off and initialize sensors ]
 
-> speed 50
+> hello_scentience
 < ok
 
 > takeoff
@@ -183,6 +182,9 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 
 > battery?
 < 80
+
+> speed 50
+< ok
 
 > go 100 0 50 30
 < ok
@@ -195,9 +197,6 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 > oio nh3
 < ok
 
-> land
-< ok
-
 [ Start receiving video on port 11111 ]
 
 > streamon
@@ -207,6 +206,11 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 < ok
 
 > oiooff
+< ok
+
+[ End all ]
+
+> land
 < ok
 ```
 
