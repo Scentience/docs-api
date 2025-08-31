@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <!-- ![image info](https://scentience.github.io/docs-api/assets/logo.png) -->
-<img src="https://scentience.github.io/docs-api/assets/logo.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:60%">
+<img src="https://scentience.github.io/docs-api/assets/logo.png" style="display:block;float:none;margin-left:auto;margin-right:auto;width:5%">
 # Scentience APIs
 ---
 The Scentience APIs provide real-time communication between Scentience devices, the Scentience mobile app, Scentience AI models, and other robots or olfactory-enabled systems.
@@ -15,6 +15,6 @@ Enabled to interface with nearly any application and programming language, this 
 - Robot Integration – Allow robots and IoT devices to access olfactory information.
 - App Relay – The Scentience app can act as a hub, relaying olfactory signals between devices.
 - Lightweight & Efficient – Built with standard software development tools like GCD, GATT, REST, web sockets, and more for high performance and scalability.
-- Cross-Platform Ready – Any WebSocket-compatible client can connect (Python, JavaScript, C++, etc.).
+- Cross-Platform Ready – Any capable connection through conventional cloud, application, or firmware languages (Python, JavaScript, C++, etc.).
 
 
