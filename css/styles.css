@@ -98,6 +98,30 @@ button:hover {
     background-color: #333;
 }
 
+/* Links */
+/* Styling for unvisited links */
+a:link {
+  color: cyan; /* Sets the color to green */
+  text-decoration: none; /* Removes the default underline */
+}
+
+/* Styling for visited links */
+a:visited {
+  color: cyan; /* Sets the color to purple */
+}
+
+/* Styling for links on hover */
+a:hover {
+  color: orange; /* Sets the color to red on hover */
+  text-decoration: underline; /* Adds an underline on hover */
+}
+
+/* Styling for active links */
+a:active {
+  color: cyan; /* Sets the color to blue when clicked */
+}
+
+
 /* Code blocks */
 pre {
   background-color: #3b3b3b; /* dark grey */
@@ -131,7 +155,7 @@ img {
 
 footer {
     background-color: #000;
-    padding: 1rem;
+    /* padding: 1rem; */
     text-align: left;
     position: fixed;
     bottom: 0;
