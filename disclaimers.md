@@ -6,9 +6,9 @@ title: Contact
 # Privacy Policy
 
 ---
+
 User privacy and data protection are of paramound importance to Scentience.
 This is why we provide users with the option to run their AI olfaction models fully at the edge, with no cloud, Wi-Fi, or other data connection needed to operate.
-
 
 For more information on Scentience privacy and data policies, please observe the following:
 - [Scentience Privacy Policy](https://scentience.ai/app-privacy-policy)
@@ -27,3 +27,8 @@ Scentience does not claim any specific performance beyond the model cards nor fo
 </form>
 
 *(Note: This is a static form demo; add a backend like Formspree for real submissions.)* -->
+
+---
+-
+---
+---
