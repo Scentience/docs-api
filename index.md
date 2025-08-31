@@ -11,7 +11,7 @@ Enabled to interface with nearly any application and programming language, this 
 
 Scentience offers 4 APIs:
 - **[Sockets API](https://scentience.github.io/docs-api/sockets-api)**: Communicate over web socket connections to olfactory devices, robots, or other peripherals.
-- **[UAV Sockets API](https://scentience.github.io/docs-api/sockets-uav-api) A derivative of the Sockets API purposed specifically for drone and UAV communication for [olfactory inertial odometry](https://ieeexplore.ieee.org/document/11078037).
+- **[UAV Sockets API](https://scentience.github.io/docs-api/sockets-uav-api)** A derivative of the Sockets API purposed specifically for drone and UAV communication for [olfactory inertial odometry](https://ieeexplore.ieee.org/document/11078037).
 - **[Bluetooth API](https://scentience.github.io/docs-api/ble-api)**: Quickly stream real-time communication from olfactory sensors to other nearby devices or robotic sensors.
 - **[AI Model API](https://scentience.github.io/docs-api/model-cards)**: Get on-demand inference from Scentience AI models being served in the cloud.
 

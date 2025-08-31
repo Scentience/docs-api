@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: 'Avenir', sans-serif;
     background-color: #000;
-    color: #fff;
+    color: #bababa;
     position: relative;
     overflow-x: hidden;
 }
@@ -101,13 +101,13 @@ button:hover {
 /* Links */
 /* Styling for unvisited links */
 a:link {
-  color: cyan; /* Sets the color to green */
+  color: teal; /* Sets the color to green */
   text-decoration: none; /* Removes the default underline */
 }
 
 /* Styling for visited links */
 a:visited {
-  color: cyan; /* Sets the color to purple */
+  color: teal; /* Sets the color to purple */
 }
 
 /* Styling for links on hover */
@@ -118,7 +118,7 @@ a:hover {
 
 /* Styling for active links */
 a:active {
-  color: cyan; /* Sets the color to blue when clicked */
+  color: teal; /* Sets the color to blue when clicked */
 }
 
 
