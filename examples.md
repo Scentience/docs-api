@@ -5,7 +5,7 @@ title: Examples
 
 # Examples
 
-Below are concepts around olfaction for which Scentience olfactory processing units (OPUs) can be intuitively used with the APIs.
+Below are concepts around olfaction for which Scentience olfactory processing units (OPUs) or third party olfaction sensors can be intuitively used with the APIs for robotics applications.
 
 ---
 
