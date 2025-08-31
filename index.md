@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <p align="center">
-  <img src="https://scentience.github.io/docs-api/assets/logo.png", width="300" />
+  <img src="https://scentience.github.io/docs-api/assets/logo.png", width="300">
 </p>
 # Scentience APIs
 ---

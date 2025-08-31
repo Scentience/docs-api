@@ -30,7 +30,7 @@ Welcome to the model cards for our Scentience ML models. These cards provide det
 
 ---
 
-## Model S2: Multimodal Olfacory Classifier
+## Model S2: Multimodal Olfactory Classifier
 
 **Description:** OdorClassifier is an advanced classifier that categorizes odors into families (e.g., floral, woody, citrus) using multimodal inputs like text descriptions and molecular features.
 
@@ -53,16 +53,11 @@ Welcome to the model cards for our Scentience ML models. These cards provide det
 
 
 ---
-Got it 👍 I’ll give you a **neutral, professional draft model card template** in Markdown that follows best practices (inspired by Hugging Face and industry conventions), but without revealing proprietary architecture details. You can fill in specifics later.
-
----
 
 ## Olfaction-Vision-Language Model  
 **Version:** 0.1  
 **Date:** 2025-02-11  
 **Developed by:** Scentience Robotics  
-
----
 
 ### Model Details
 
@@ -71,9 +66,7 @@ Got it 👍 I’ll give you a **neutral, professional draft model card template*
 - **Developed by:** Scentience Robotics, LLC  
 - **Model Type:** Multimodal model (olfaction, vision, language)  
 - **License:** Scentience Proprietary  
-- **Contact:** [info@scentience.ai](info@scentience.ai)
-
----
+- **Contact:** info@scentience.ai
 
 ### Intended Use
 
@@ -87,8 +80,6 @@ Got it 👍 I’ll give you a **neutral, professional draft model card template*
   - Deployment without appropriate domain adaptation and testing.  
   - Use in surveillance contexts without explicit consent and legal approval.  
 
----
-
 ### Inputs & Outputs
 
 - **Inputs**  
@@ -99,8 +90,6 @@ Got it 👍 I’ll give you a **neutral, professional draft model card template*
 - **Outputs**  
     - **Textual Output:** Natural language responses, descriptions, or classifications.  
     - **Multimodal Output:** Integrated reasoning across olfaction, vision, and language.  
-
----
 
 ### Performance
 
@@ -128,8 +117,6 @@ Got it 👍 I’ll give you a **neutral, professional draft model card template*
   - Model may underperform on out-of-distribution sensory combinations.  
   - Computationally intensive for real-time UAV applications.  
 
----
-
 ### Ethical Considerations
 
 - **Bias & Fairness:**  
@@ -144,15 +131,11 @@ Got it 👍 I’ll give you a **neutral, professional draft model card template*
   - Input data should not contain personally identifiable information.  
   - Use only in compliance with applicable data protection regulations.  
 
----
-
 ### Caveats & Recommendations
 
 - The model is **research-grade** and not production-certified.  
 - Fine-tuning and domain adaptation are encouraged before applied deployment.  
 - Performance can vary significantly based on hardware and sensor configurations.  
-
----
 
 ### Citation
 
@@ -166,11 +149,5 @@ year={2025},
 note={Version 0.3}
 }
 ```
-
----
-
-### Contact
-
-For questions, collaborations, or licensing inquiries: [info@scentience.ai](info@scentience.ai) 
 
 ---
