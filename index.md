@@ -2,9 +2,7 @@
 layout: default
 title: Home
 ---
-<p align="center">
-  <img src="https://scentience.github.io/docs-api/assets/logo.png", width="300">
-</p>
+![image info](https://scentience.github.io/docs-api/assets/logo.png)
 # Scentience APIs
 ---
 The Scentience APIs provide real-time communication between Scentience devices, the Scentience mobile app, Scentience AI models, and other robots or olfactory-enabled systems.
@@ -17,6 +15,5 @@ Enabled to interface with nearly any application and programming language, this 
 - App Relay – The Scentience app can act as a hub, relaying olfactory signals between devices.
 - Lightweight & Efficient – Built with standard software development tools like GCD, GATT, REST, web sockets, and more for high performance and scalability.
 - Cross-Platform Ready – Any WebSocket-compatible client can connect (Python, JavaScript, C++, etc.).
----
 
 
