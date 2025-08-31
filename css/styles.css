@@ -149,8 +149,8 @@ code {
 img {
     width : 200;
     height: auto; /*to preserve the aspect ratio of the image*/
-    display: block; /* Make the image a block-level element */
-    margin: 0 auto; /* Set left and right margins to auto */
+    /* display: block; Make the image a block-level element */
+    /* margin: 0 auto; Set left and right margins to auto */
 }
 
 footer {

@@ -142,25 +142,25 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 
 ### Field Descriptions
 
-| Field   | Meaning                                                                 |
-|---------|-------------------------------------------------------------------------|
-| x, y, z | Coordinates of the home. `0` if no home position is detected.           |
-| pitch   | Attitude pitch in degrees.                                              |
-| roll    | Attitude roll in degrees.                                               |
-| yaw     | Attitude yaw in degrees.                                                |
-| vgx     | Speed along the X-axis.                                                 |
-| vgy     | Speed along the Y-axis.                                                 |
-| vgz     | Speed along the Z-axis.                                                 |
-| templ   | Lowest temperature in °C.                                               |
-| temph   | Highest temperature in °C.                                              |
-| tof     | Time-of-flight distance in cm.                                          |
-| h       | Height in cm.                                                           |
-| bat     | Current battery level in percentage.                                    |
-| baro    | Barometer measurement in cm.                                            |
-| time    | Duration (in seconds) motors have been engaged.                         |
-| agx     | Acceleration along the X-axis.                                          |
-| agy     | Acceleration along the Y-axis.                                          |
-| agz     | Acceleration along the Z-axis.                                          |
+| Field         | Meaning                                                                 |
+|---------------|-------------------------------------------------------------------------|
+| `x`, `y`, `z` | Coordinates of the home. `0` if no home position is detected.           |
+| `pitch`       | Attitude pitch in degrees.                                              |
+| `roll`        | Attitude roll in degrees.                                               |
+| `yaw`         | Attitude yaw in degrees.                                                |
+| `vgx`         | Speed along the X-axis.                                                 |
+| `vgy`         | Speed along the Y-axis.                                                 |
+| `vgz`         | Speed along the Z-axis.                                                 |
+| `templ`       | Lowest temperature in °C.                                               |
+| `temph`       | Highest temperature in °C.                                              |
+| `tof`         | Time-of-flight distance in cm.                                          |
+| `h`           | Height in cm.                                                           |
+| `bat`         | Current battery level in percentage.                                    |
+| `baro`        | Barometer measurement in cm.                                            |
+| `time`        | Duration (in seconds) motors have been engaged.                         |
+| `agx`         | Acceleration along the X-axis.                                          |
+| `agy`         | Acceleration along the Y-axis.                                          |
+| `agz`         | Acceleration along the Z-axis.                                          |
 
 ---
 
