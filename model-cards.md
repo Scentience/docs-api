@@ -5,7 +5,9 @@ title: Model Cards
 
 # Scentience Model Cards
 ---
-Welcome to the model cards for our Scentience ML models. These cards provide detailed information about each model's purpose, performance, and usage guidelines. _Please note that all models are **for research purposes only**._ Scentience cannot claim any specific performance beyond the model cards nor for any specific applications.
+Welcome to the model cards for our Scentience ML models. These cards provide detailed information about each model's purpose, performance, and usage guidelines. _Please note that all models are **for research purposes only**._ Scentience does not claim any specific performance beyond the model cards nor for any specific applications.
+
+For more information on Scentience privacy and data policies, please observe the [Scentience Privacy Policy](https://scentience.ai/app-privacy-policy).
 
 ---
 

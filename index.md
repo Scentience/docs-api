@@ -15,6 +15,11 @@ Scentience offers 4 APIs:
 - **[Bluetooth API](https://scentience.github.io/docs-api/ble-api)**: Quickly stream real-time communication from olfactory sensors to other nearby devices or robotic sensors.
 - **[AI Model Serving API](https://scentience.github.io/docs-api/model-cards)**: Get on-demand inference from Scentience AI models being served in the cloud.
 
+---
+
+# Contact Us
+
+For any questions or concerns with any of the Scentience APIs, please reach out via email at info@scentience.ai.
 
 <!-- **Features**
 - Real-time Communication – Stream data from olfactory devices with minimal latency.
@@ -24,4 +29,6 @@ Scentience offers 4 APIs:
 - Cross-Platform Ready – Any capable connection through conventional cloud, application, or firmware languages (Python, JavaScript, C++, etc.). -->
 
 ---
-
+-
+---
+---
