@@ -8,7 +8,7 @@ Below is a summary of the release notes for recent versions of the Scentience Bl
 
 ### v0.3
 **25 August 2025**: 
-- Initial public release
+- Initial public beta release
 
 
 ### v0.2
