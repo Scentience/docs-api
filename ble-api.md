@@ -3,7 +3,7 @@ layout: default
 title: Contact
 ---
 
-# Scentience Bluetooth API Guide
+# Scentience Bluetooth API
 
 This document provides developers with instructions on how to interface with Scentience olfaction devices using Bluetooth Low Energy (BLE) via the GATT protocol. These devices allow for programmatic control of scent emission and related features, enabling integration into applications such as smart home systems, virtual reality experiences, or aromatherapy apps.
 

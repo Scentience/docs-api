@@ -3,7 +3,7 @@ layout: default
 title: Contact
 ---
 
-# Scentience UAV Sockets API Guide
+# Scentience UAV Sockets API
 
 **Version 0.3 – Scentience**
 

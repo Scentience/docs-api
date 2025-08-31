@@ -3,7 +3,7 @@ layout: default
 title: Contact
 ---
 
-# Scentience Sockets API Guide
+# Scentience Sockets API
 
 ### Connecting with Swift
 ```python
