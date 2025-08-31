@@ -5,7 +5,7 @@ title: Contact
 
 # Contact Us
 
-For any questions or concerns with any of the Scentience APIs, please reach out via email at [info@scentience.ai](info@scentience.ai).
+For any questions or concerns with any of the Scentience APIs, please reach out via email at info@scentience.ai.
 
 
 <!-- <form>
