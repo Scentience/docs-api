@@ -25,6 +25,8 @@ Scentience offers 4 APIs:
 
 ---
 
+# Examples
+
 Below are concepts around olfaction for which Scentience olfactory processing units (OPUs) can be intuitively used with the APIs.
 
 ---
