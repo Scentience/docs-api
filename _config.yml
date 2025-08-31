@@ -7,8 +7,8 @@
 # ----------------------------------------
 # Site settings
 # ----------------------------------------
-title: "Scentience WebSocket API"
-description: "A lightweight WebSocket API for olfactory communication between Scentience devices, apps, and robots."
+title: "Scentience API"
+description: "A lightweight set of olfaction APIs for communication between Scentience devices, apps, and robots."
 url: "https://scentience.github.io"
 baseurl: "/docs-api/"   # change/remove if deploying at root
 theme: minima

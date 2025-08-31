@@ -5,7 +5,7 @@ title: Contact
 
 # Scentience UAV Sockets API Guide
 
-**Version 1.0 – Scentience**
+**Version 0.3 – Scentience**
 
 ---
 
@@ -106,8 +106,6 @@ Scentience supports three distinct command types:
 | `mdirection x`                  | Set detection direction: 0=down, 1=front, 2=both | `ok` / `error` |
 | `ap YOUR_SSID YOUR_PASS`        | Configure station mode for Wi-Fi                 | `ok` / `error` |
 
-> **Tip**: Use `mon` before setting `mdirection`. Detection rates vary based on mode.
-
 ---
 
 ### Read Commands
@@ -146,7 +144,7 @@ pitch:%d;roll:%d;yaw:%d;vgx:%d;vgy:%d;vgz:%d;templ:%d;temph:%d;tof:%d;h:%d;bat:%
 
 | Field   | Meaning                                                                 |
 |---------|-------------------------------------------------------------------------|
-| x, y, z | Coordinates of the Mission Pad. `0` if no pad is detected.              |
+| x, y, z | Coordinates of the home. `0` if no home position is detected.           |
 | pitch   | Attitude pitch in degrees.                                              |
 | roll    | Attitude roll in degrees.                                               |
 | yaw     | Attitude yaw in degrees.                                                |

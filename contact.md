@@ -5,9 +5,10 @@ title: Contact
 
 # Contact Us
 
-Reach out via email at midnight@example.com or use the form below.
+For any questions or concerns with any of the Scentience APIs, please reach out via email at info@scentience.ai.
 
-<form>
+
+<!-- <form>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name">
     <label for="message">Message:</label>
@@ -15,4 +16,4 @@ Reach out via email at midnight@example.com or use the form below.
     <button type="submit">Send</button>
 </form>
 
-*(Note: This is a static form demo; add a backend like Formspree for real submissions.)*
+*(Note: This is a static form demo; add a backend like Formspree for real submissions.)* -->
