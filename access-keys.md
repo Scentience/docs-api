@@ -5,7 +5,6 @@ title: Access Keys
 
 # Scentience API Access Keys
 Below are the steps to obtaining your Scentience API key in order to access the Scentience Sockets, UAV-Sockets, Bluetooth, and AI Model APIs.
----
 
 ## Getting Your Scentience API Key
 
