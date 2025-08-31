@@ -9,6 +9,11 @@ title: Home
 The Scentience APIs provide real-time communication between Scentience devices, the Scentience mobile app, Scentience AI models, and other robots or olfactory-enabled systems.
 Enabled to interface with nearly any application and programming language, this API enables seamless exchange of olfactory information over several lightweight standard bidirectional communication protocols.
 
+Scentience offers 3 APIs:
+- **Sockets API**: Communicate over web socket connections to olfactory devices, robots, or other peripherals.
+- **Bluetooth API**: Quickly stream real-time communication from olfactory sensors to other nearby devices or robotic sensors.
+- **AI Model API**: Get on-demand inference from Scentience AI models being served in the cloud.
+
 
 **Features**
 - Real-time Communication – Stream data from olfactory devices with minimal latency.
