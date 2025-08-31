@@ -41,3 +41,7 @@ When OPUs capture raw chemical signatures, the API can:
 
 **Example use case:**  
 A household service robot detecting it has entered a kitchen (due to a mix of cooking aromas) and adapting its task behavior accordingly.
+
+
+---
+---
