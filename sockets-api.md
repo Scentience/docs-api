@@ -6,7 +6,9 @@ title: Contact
 # Scentience Sockets API
 
 The Scentience Sockets API is built to interface with Python as a PyPi package, C++ as a Conan package, React Native as an NPM package, and Rust as a Cargo package.
+
 ---
+
 ## **Connecting with Python**
 
 1. Install the Scentience PyPi package:
@@ -81,7 +83,7 @@ device.stream(async=True)
 
 ---
 
-## **Connecting with C++ (Conan or vcpkg)**
+## **Connecting with C++**
 
 1. Install the Scentience package (choose your package manager):
 
@@ -143,7 +145,7 @@ int main() {
 
 ---
 
-## **Connecting with Rust (crates.io)**
+## **Connecting with Rust**
 
 1. Add the Scentience crate:
 
@@ -198,7 +200,7 @@ fn main() {
 
 ---
 
-## **Connecting with React (npm / frontend)**
+## **Connecting with React**
 
 1. Install the Scentience package:
 
