@@ -24,7 +24,7 @@ header {
 }
 
 .header-logo {
-    height: 40px;          /* adjust size as needed */
+    height: 80px;          /* adjust size as needed */
     width: auto;
 }
 
@@ -33,9 +33,9 @@ header {
     background: none;
     border: none;
     color: #fff;
-    /* font-size: 2rem; */
+    font-size: 2rem;
     flex-shrink: 0;        /* ensures button doesn’t shrink */
-    font-size: 24px;
+    /* font-size: 24px; */
     cursor: pointer;
 }
 
