@@ -24,8 +24,8 @@ header {
 }
 
 .header-logo {
-    height: 80px;          /* adjust size as needed */
-    width: auto;
+    height: auto;          /* adjust size as needed */
+    width: 300px;
 }
 
 
