@@ -7,7 +7,7 @@ title: Contact
 
 The Scentience Sockets API is built to interface with Python as a PyPi package, C++ as a Conan package, React Native as an NPM package, and Rust as a Cargo package.
 ---
-### Connecting with Python
+## **Connecting with Python**
 
 1. Install the Scentience PyPi package:
 
@@ -61,7 +61,7 @@ device.stream(async=True)
 
 ---
 
-A full test script can be found below:
+**Full example:**
 
 ```python
 import scentience as scn
@@ -81,23 +81,195 @@ device.stream(async=True)
 
 ---
 
-### Connecting with C++
+## **Connecting with C++ (Conan or vcpkg)**
 
-Coming soon.
+1. Install the Scentience package (choose your package manager):
 
-### Connecting with Rust
+```bash
+# Using Conan
+conan install scentience/1.0.0@
 
-Coming soon.
+# Or, using vcpkg
+vcpkg install scentience
+```
 
-### Connecting with React
+2. Include the Scentience header:
 
-Coming soon.
+```cpp
+#include <scentience/scentience.h>
+using namespace scn;
+```
 
-### API Messages
+3. Initialize and connect a Scentience device:
+
+```cpp
+// Initialize a device
+ScentienceDevice device("<YOUR_API_KEY>");
+
+// Connect the device
+device.connect_socket();
+
+// Or connect to a specific device by UID (serial number)
+device.connect_socket("<YOUR_DEVICE_UID>");
+
+// Connect with a custom IP/port
+device.connect_socket("<YOUR_DEVICE_UID>", "192.168.10.1", 9000);
+```
+
+4. Sample from the device sensors:
+
+```cpp
+// Sample once
+device.sample(true);  // true = async
+
+// Stream sensor data
+device.stream(true);
+```
+
+**Full example:**
+
+```cpp
+#include <scentience/scentience.h>
+using namespace scn;
+
+int main() {
+    ScentienceDevice device("<YOUR_API_KEY>");
+    device.connect_socket();
+    device.sample(true);
+    device.stream(true);
+    return 0;
+}
+```
+
+---
+
+## **Connecting with Rust (crates.io)**
+
+1. Add the Scentience crate:
+
+```bash
+cargo add scentience
+```
+
+2. Import the crate:
+
+```rust
+use scentience::ScentienceDevice;
+```
+
+3. Initialize and connect a Scentience device:
+
+```rust
+// Initialize a device
+let mut device = ScentienceDevice::new("<YOUR_API_KEY>");
+
+// Connect the device
+device.connect_socket();
+
+// Connect to a specific device UID
+device.connect_socket_with_uid("<YOUR_DEVICE_UID>");
+
+// Connect with custom IP/port
+device.connect_socket_with_config("<YOUR_DEVICE_UID>", "192.168.10.1", 9000);
+```
+
+4. Sample from the device sensors:
+
+```rust
+// Sample once
+device.sample(true); // async = true
+
+// Stream data
+device.stream(true);
+```
+
+**Full example:**
+
+```rust
+use scentience::ScentienceDevice;
+
+fn main() {
+    let mut device = ScentienceDevice::new("<YOUR_API_KEY>");
+    device.connect_socket();
+    device.sample(true);
+    device.stream(true);
+}
+```
+
+---
+
+## **Connecting with React (npm / frontend)**
+
+1. Install the Scentience package:
+
+```bash
+npm install scentience
+```
+
+2. Import the Scentience package:
+
+```jsx
+import { ScentienceDevice } from "scentience";
+```
+
+3. Initialize and connect a Scentience device:
+
+```jsx
+// Initialize a device
+const device = new ScentienceDevice("<YOUR_API_KEY>");
+
+// Connect the device
+device.connectSocket();
+
+// Connect to a specific device UID
+device.connectSocket({ deviceUid: "<YOUR_DEVICE_UID>" });
+
+// Connect with custom IP/port
+device.connectSocket({
+  deviceUid: "<YOUR_DEVICE_UID>",
+  ipAddress: "192.168.10.1",
+  port: 9000,
+});
+```
+
+4. Sample from the device sensors:
+
+```jsx
+// Sample once
+device.sample({ async: true });
+
+// Stream sensor data
+device.stream({ async: true });
+```
+
+**Full example (React component):**
+
+```jsx
+import { useEffect } from "react";
+import { ScentienceDevice } from "scentience";
+
+export default function App() {
+  useEffect(() => {
+    const device = new ScentienceDevice("<YOUR_API_KEY>");
+    device.connectSocket();
+    device.sample({ async: true });
+    device.stream({ async: true });
+  }, []);
+
+  return <h1>Scentience Connected</h1>;
+}
+```
+
+---
+
+## API Message Format
+### Response Schema
 The API communicates through JSON messages for easy parsing.
 Environmental parameters are prefixed with the `ENV_` string.
 Battery parameters are prefixed with the `BATT_` string.
 Olfactory data have no prefixed and each are keyed with their appropriate chemical abbreviations.
+Note that _all_ chemical compounds identified within a sample will send with every broadcast.
+If a chemical compound's magnitude is not greater than zero, it will not send with the broadcast.
 The device UID and timestamp are given to help with multiplexing multiple Scentience devices together.
 
 Example schema:
@@ -129,6 +301,14 @@ Example schema:
   "VOC":2917
   }
 ```
+
+Additional actions may be added in future firmware updates; check the Scentience API changelog and release notes.
+
+
+### Request Schema
+
+Coming soon.
+
 
 ---
 ---
