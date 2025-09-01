@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;   /* vertically aligns items to the center */
     justify-content: center; /* centers the content horizontally */
-    gap: 20px;             /* space between hamburger and logo */
+    gap: 0px;             /* space between hamburger and logo */
 }
 
 .header-logo {
@@ -33,7 +33,7 @@ header {
     background: none;
     border: none;
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
     flex-shrink: 0;        /* ensures button doesn’t shrink */
     /* font-size: 24px; */
     cursor: pointer;
