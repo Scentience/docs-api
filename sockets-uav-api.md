@@ -5,13 +5,9 @@ title: Contact
 
 # Scentience UAV Sockets API
 
-**Version 0.3 – Scentience**
+The Scentience UAV Sockets API, just like the regular Sockets API, is built to interface with Python as a PyPi package, C++ and React Native as source packages, and Rust as a Cargo package.
 
----
-
-## Introduction
-
-Welcome to **Scentience**—your gateway to seamless UAV communication. 
+The Scentience UAV Sockets API is your gateway to seamless UAV communication with olfactory sensors. 
 This WebSockets-based API mirrors the familiar structure of the other UAV SDKs. 
 Through Wi-Fi and UDP, your commands and data flow smoothly between your control system and our drones.
 

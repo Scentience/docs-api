@@ -5,7 +5,10 @@ title: Contact
 
 # Scentience Bluetooth API
 
-This document provides developers with instructions on how to interface with Scentience olfaction devices using Bluetooth Low Energy (BLE) via the GATT protocol. These devices allow for programmatic control of scent emission and related features, enabling integration into applications such as smart home systems, virtual reality experiences, or aromatherapy apps.
+This document provides developers with instructions on how to interface with Scentience olfaction devices using Bluetooth Low Energy (BLE) via the GATT protocol. These devices allow for programmatic control of scent emission and related features, enabling integration into applications such as robotics platforms, virtual reality experiences, or other olfactory applications.
+
+The Scentience Bluetooth API is built to interface with Python as a PyPi package, C++ as a Conan package, React Native as an NPM package, and Rust as a Cargo package.
+
 
 ## Introduction
 
@@ -22,8 +25,6 @@ Commands and responses are exchanged as structured JSON payloads over this chara
 - **Characteristic UUID**: Use the following UUID for the primary command characteristic: `0000abcd-0000-1000-8000-00805f9b34fb` (replace with the actual UUID provided by Scentience if different).
 - **Service UUID**: The device exposes a custom GATT service with UUID `00001234-0000-1000-8000-00805f9b34fb`.
 - **Libraries/Tools**:
-  - iOS: CoreBluetooth framework.
-  - Android: Android Bluetooth APIs.
   - Cross-platform: Libraries like `bleak` (Python) or `react-native-ble-plx` (React Native).
 
 Ensure your app has BLE permissions enabled (e.g., location permissions on Android for scanning).
