@@ -20,11 +20,11 @@ header {
     display: flex;
     align-items: center;   /* vertically aligns items to the center */
     justify-content: center; /* centers the content horizontally */
-    gap: 0px;             /* space between hamburger and logo */
+    gap: 20px;             /* space between hamburger and logo */
 }
 
 .header-logo {
-    height: 60px;          /* adjust size as needed */
+    height: 40px;          /* adjust size as needed */
     width: auto;
 }
 
