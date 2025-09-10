@@ -9,7 +9,7 @@ The Scentience UAV Sockets API, just like the regular Sockets API, is built to i
 
 The Scentience UAV Sockets API is your gateway to seamless UAV communication with olfactory sensors. 
 This WebSockets-based API mirrors the familiar structure of the other UAV SDKs. 
-Through Wi-Fi and UDP, your commands and data flow smoothly between your control system and our drones.
+Through Wi-Fi and UDP, your commands and data flow smoothly between Scentience sensors and your drones.
 
 ---
 
