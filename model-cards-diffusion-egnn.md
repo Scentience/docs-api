@@ -58,7 +58,7 @@ We offer two models with this repository:
 ---
 
 
-- **Model Name:** `DEGNN Unonstrained`
+- **Model Name:** `DEGNN Unconstrained`
 - **Developed by:** Kordel K. France
 - **Date:** September 2025
 - **Architecture:**
