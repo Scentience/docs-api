@@ -124,3 +124,10 @@ If you use this model, please cite:
           url={https://arxiv.org/abs/2303.15343}, 
 }
 ```
+
+---
+
+
+## License
+
+This dataset is released under the [MIT License](https://opensource.org/license/mit).
