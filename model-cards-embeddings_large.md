@@ -5,6 +5,8 @@ title: Model Cards - Embeddings (Small)
 
 # Model Card: Scentience-OVLE-Large-v1
 
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/kordelfrance/Olfaction-Vision-Language-Embeddings)
+
 We offer a foundational series of larger multimodal joint embedding models trained on olfaction, vision, and language data.
 These models are built specifically for prototyping and exploratory tasks within AR/VR, robotics, and embodied artificial intelligence.
 Analogous to how CLIP and SigLIP embeddings give vision-language relationships, our embeddings models here give olfaction-vision-language (OVL) relationships.
