@@ -5,7 +5,10 @@ title: Model Cards - Embeddings (Small)
 
 # Model Card: Scentience-OVLE-Large-v1
 
+[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1H5OSeO43YfhAT9MqcJKaaSknFYhjimvg?usp=sharing)
+[![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00398)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/kordelfrance/Olfaction-Vision-Language-Embeddings)
+
 
 We offer a foundational series of larger multimodal joint embedding models trained on olfaction, vision, and language data.
 These models are built specifically for prototyping and exploratory tasks within AR/VR, robotics, and embodied artificial intelligence.

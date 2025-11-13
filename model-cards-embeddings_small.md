@@ -1,7 +1,21 @@
-
+---
+layout: default
+title: Model Cards - Embeddings (Small)
+---
 
 # Model Card: Scentience-OVLE-Small-v1
 
+[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1H5OSeO43YfhAT9MqcJKaaSknFYhjimvg?usp=sharing)
+[![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00398)
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/kordelfrance/Olfaction-Vision-Language-Embeddings)
+
+
+We offer a foundational series of smaller multimodal joint embedding models trained on olfaction, vision, and language data.
+These models are built specifically for prototyping and exploratory tasks within AR/VR, robotics, and embodied artificial intelligence.
+Analogous to how CLIP and SigLIP embeddings give vision-language relationships, our embeddings models here give olfaction-vision-language (OVL) relationships.
+
+ - (1) `ovle-small-base`: The original OVL base model optimized for faster inference and edge-based robotics. This model is optimized for export to common frameworks that run on Android, iOS, Rust, and others.
+ - (2) `ovle-small-gat`: The OVL graph-attention model optimized for faster inference and edge robotics applications.
 
 ## Model Details
 - **Model Name:** `Scentience OVLE Small v1`
