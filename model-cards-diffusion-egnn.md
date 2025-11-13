@@ -11,7 +11,11 @@ title: Model Cards - Embeddings (Small)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/kordelfrance/diffusion-graph-olfaction-models)
 
 
-An open-sourced diffusion-based equivariant graph neural network (DEGNN) for olfaction-vision-language tasks.
+The Scentience diffusion-based equivariant graph neural network (DEGNN) is designed for associating observed molecular objects with similar olfactory descriptors for olfaction-vision-language tasks.
+
+_Please note that all Scentience machine learning models are **for research purposes only**._ Scentience does not claim any specific performance beyond the model cards nor for any specific applications.
+
+For more information on Scentience privacy and data policies, please observe the [Scentience Privacy Policy](https://scentience.ai/app-privacy-policy).
 
 ---
 
@@ -110,3 +114,10 @@ If you use these models in your research, please cite as follows:
 ## License
 
 This dataset is released under the [MIT License](https://opensource.org/license/mit).
+
+
+---
+---
+---
+---
+---

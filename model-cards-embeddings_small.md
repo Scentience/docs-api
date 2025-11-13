@@ -17,6 +17,12 @@ Analogous to how CLIP and SigLIP embeddings give vision-language relationships, 
  - (1) `ovle-small-base`: The original OVL base model optimized for faster inference and edge-based robotics. This model is optimized for export to common frameworks that run on Android, iOS, Rust, and others.
  - (2) `ovle-small-gat`: The OVL graph-attention model optimized for faster inference and edge robotics applications.
 
+ _Please note that all Scentience machine learning models are **for research purposes only**._ Scentience does not claim any specific performance beyond the model cards nor for any specific applications.
+
+For more information on Scentience privacy and data policies, please observe the [Scentience Privacy Policy](https://scentience.ai/app-privacy-policy).
+
+--
+
 ## Model Details
 - **Model Name:** `Scentience OVLE Small v1`
 - **Developed by:** Kordel K. France
@@ -131,3 +137,9 @@ If you use this model, please cite:
 ## License
 
 This dataset is released under the [MIT License](https://opensource.org/license/mit).
+
+---
+---
+---
+---
+---

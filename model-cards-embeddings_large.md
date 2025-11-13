@@ -17,6 +17,11 @@ Analogous to how CLIP and SigLIP embeddings give vision-language relationships, 
  - (1) `ovle-large-base`: The original OVL base model. This model is optimal for online tasks where accuracy is critical.
  - (2) `ovle-large-gat`: The OVL base model built around a graph-attention network. This model is optimal for online tasks where accuracy is paramount and inference time is not as critical.
 
+_Please note that all Scentience machine learning models are **for research purposes only**._ Scentience does not claim any specific performance beyond the model cards nor for any specific applications.
+
+For more information on Scentience privacy and data policies, please observe the [Scentience Privacy Policy](https://scentience.ai/app-privacy-policy).
+
+--
 
 ## Model Details
 - **Model Name:** `Scentience OVLE Large v1`
@@ -132,3 +137,9 @@ If you use this model, please cite:
 ## License
 
 This dataset is released under the [MIT License](https://opensource.org/license/mit).
+
+---
+---
+---
+---
+---
