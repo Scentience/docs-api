@@ -4,7 +4,7 @@ title: Model Cards - Embeddings (Small)
 ---
 
 
-# Model Card: Diffusion Graph Neural Network
+# Model Card: Diffusion-based Graph Neural Network
 
 [![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1z-ITTEfVtMMbfbN50u2AfQhzvuYkrRn7?usp=sharing)
 [![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00455v4)
