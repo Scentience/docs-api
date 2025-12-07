@@ -3,7 +3,8 @@ layout: default
 title: Model Cards - Embeddings (Small)
 ---
 
-# Model Card: Scentience-OVLE-Large-v1
+# Model Card: COLIP-Large-v1
+Contrastive Olfaction-Language-Image Pre-training Embeddings Model (Large)
 
 [![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1H5OSeO43YfhAT9MqcJKaaSknFYhjimvg?usp=sharing)
 [![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00398)
