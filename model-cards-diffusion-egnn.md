@@ -4,14 +4,14 @@ title: Model Cards - Embeddings (Small)
 ---
 
 
-# Model Card: Diffusion-based Graph Neural Network
+# Model Card: Diffusion-based Graph Neural Network for Molecular Generation
 
 [![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1z-ITTEfVtMMbfbN50u2AfQhzvuYkrRn7?usp=sharing)
 [![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00455v4)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/kordelfrance/diffusion-graph-olfaction-models)
 
 
-The Scentience diffusion-based equivariant graph neural network (DEGNN) is designed for associating observed molecular objects with similar olfactory descriptors for olfaction-vision-language tasks.
+The Scentience diffusion-based equivariant graph neural network (DEGNN) is a molecular generation model designed for associating observed molecular objects with similar olfactory descriptors for olfaction-vision-language tasks.
 
 _Please note that all Scentience machine learning models are **for research purposes only**._ Scentience does not claim any specific performance beyond the model cards nor for any specific applications.
 
