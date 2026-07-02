@@ -8,4 +8,4 @@ title: Environments - OIO Navigation
 Scentience creates several environments for scent-based navigation.
 This environment is built specifically to facilitate navigation via olfactory inertial odometry.
 
-Coming March 2026.
+You can access the Scentience Plume Environments [here.](https://github.com/Scentience/scentience-plume-envs/tree/main/env_b)
