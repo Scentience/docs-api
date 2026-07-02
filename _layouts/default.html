@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="https://scentience.github.io/docs-api/css/styles.css">
+    <style>
+        /* Let the side menu scroll when its contents exceed the viewport height */
+        #sidebar {
+            max-height: 100vh;
+            overflow-y: auto;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -48,7 +55,7 @@
         {{ content }}
     </main>
     <footer>
-        <p>&copy; Copyright 2025 Scentience. All rights reserved.</p>
+        <p>&copy; Copyright 2025-2026 Scentience. All rights reserved.</p>
     </footer>
     <script src="https://scentience.github.io/docs-api/js/script.js"></script>
 </body>
